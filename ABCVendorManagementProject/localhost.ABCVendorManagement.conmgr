@@ -1,0 +1,12 @@
+﻿<?xml version="1.0"?>
+<DTS:ConnectionManager xmlns:DTS="www.microsoft.com/SqlServer/Dts"
+  DTS:ObjectName="localhost.ABCVendorManagement"
+  DTS:DTSID="{9E77C3FC-CC18-4D32-8E70-AB12183DBADB}"
+  DTS:CreationName="OLEDB">
+  <DTS:ObjectData>
+    <DTS:ConnectionManager
+      DTS:ConnectRetryCount="1"
+      DTS:ConnectRetryInterval="5"
+      DTS:ConnectionString="Data Source=localhost;Initial Catalog=ABCVendorManagement;Provider=SQLNCLI11.1;Integrated Security=SSPI;Application Name=SSIS-ABCVendorManagementProject-{9E77C3FC-CC18-4D32-8E70-AB12183DBADB}localhost.ABCVendorManagement;Auto Translate=False;" />
+  </DTS:ObjectData>
+</DTS:ConnectionManager>
